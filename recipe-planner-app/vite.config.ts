@@ -18,10 +18,5 @@ export default defineConfig({
 				strict: true
 			})
 		})
-	],
-	optimizeDeps: {
-		// Stencil's lazy-loading bundle dynamically imports sibling chunk files at runtime;
-		// letting Vite pre-bundle it breaks those relative imports (404s on p-*.entry.js).
-		exclude: ['@anchalmehta/recipe-ui-components']
-	}
+	]
 });

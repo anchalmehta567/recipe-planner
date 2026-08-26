@@ -119,4 +119,4 @@ npm run build
 npm publish --access public
 ```
 
-Follows semver: this is `1.0.0`, the first stable release.
+Follows semver: `1.0.0` was the first stable release; see the [npm page](https://www.npmjs.com/package/@anchalmehta/recipe-ui-components) for the current version.
