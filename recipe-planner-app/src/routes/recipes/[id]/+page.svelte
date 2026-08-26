@@ -45,6 +45,13 @@
 
 	function addToPlan() {
 		if (!recipe) return;
+		const existing = mealPlan.days[selectedDay];
+		if (existing && existing.id !== recipe.id) {
+			const confirmed = confirm(
+				`${selectedDay} already has "${existing.title}". Replace it with "${recipe.title}"?`
+			);
+			if (!confirmed) return;
+		}
 		mealPlan.assign(selectedDay, {
 			id: recipe.id,
 			source: recipe.source,
