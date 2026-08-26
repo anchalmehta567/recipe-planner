@@ -1,9 +1,9 @@
 # @anchalmehta/recipe-ui-components
 
-Reusable [StencilJS](https://stenciljs.com) web-component library for the [Recipe Finder & Meal Planner](https://github.com/anchalmehta567/Recipe_Finder-Meal_Planner) app. Framework-agnostic custom elements consumed by the SvelteKit app in `recipe-planner-app/`, but usable from any framework (or none).
+Reusable [StencilJS](https://stenciljs.com) web-component library for the [Recipe Finder & Meal Planner](https://github.com/anchalmehta567/recipe-planner) app. Framework-agnostic custom elements consumed by the SvelteKit app in `recipe-planner-app/`, but usable from any framework (or none).
 
 - **npm:** https://www.npmjs.com/package/@anchalmehta/recipe-ui-components
-- **Source:** [`recipe-ui-components/`](https://github.com/anchalmehta567/Recipe_Finder-Meal_Planner/tree/main/recipe-ui-components)
+- **Source:** [`recipe-ui-components/`](https://github.com/anchalmehta567/recipe-planner/tree/main/recipe-ui-components)
 
 ## Install
 

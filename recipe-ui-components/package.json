@@ -1,6 +1,6 @@
 {
   "name": "@anchalmehta/recipe-ui-components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Reusable Web Component library (built with StencilJS) for the Recipe Finder & Meal Planner app: recipe cards, search bar, badges, meal-plan day slots and empty states.",
   "main": "dist/index.cjs.js",
   "module": "elements.js",
@@ -21,13 +21,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/anchalmehta567/Recipe_Finder-Meal_Planner.git",
+    "url": "https://github.com/anchalmehta567/recipe-planner.git",
     "directory": "recipe-ui-components"
   },
   "bugs": {
-    "url": "https://github.com/anchalmehta567/Recipe_Finder-Meal_Planner/issues"
+    "url": "https://github.com/anchalmehta567/recipe-planner/issues"
   },
-  "homepage": "https://github.com/anchalmehta567/Recipe_Finder-Meal_Planner/tree/main/recipe-ui-components#readme",
+  "homepage": "https://github.com/anchalmehta567/recipe-planner/tree/main/recipe-ui-components#readme",
   "keywords": [
     "stencil",
     "web-components",
