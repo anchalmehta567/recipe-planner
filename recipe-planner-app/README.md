@@ -1,6 +1,6 @@
 # Recipe Finder & Meal Planner
 
-A recipe discovery and weekly meal-planning app built with **Svelte 5** and **SvelteKit**, using the published **[@anchalmehta/recipe-ui-components](https://www.npmjs.com/package/@anchalmehta/recipe-ui-components)** StencilJS web-component library ([source](https://github.com/anchalmehta567/recipe-planner/tree/main/recipe-ui-components)) for its UI primitives.
+A recipe discovery and weekly meal-planning app built with **Svelte 5** and **SvelteKit**, using the published **[@anchalmehta/recipe-ui-components](https://www.npmjs.com/package/@anchalmehta/recipe-ui-components)** StencilJS web-component library ([source](https://github.com/anchalmehta567/recipe-planner/tree/master/recipe-ui-components)) for its UI primitives.
 
 - **Live app:** https://recipe-finder-meal-planner.netlify.app
 - **Repository:** https://github.com/anchalmehta567/recipe-planner
