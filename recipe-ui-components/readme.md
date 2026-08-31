@@ -106,10 +106,13 @@ Slot: default — call-to-action button/link.
 
 ```sh
 npm install
+npx playwright install chromium-headless-shell   # one-time, needed before `npm test`
 npm start        # dev build + watch + local demo server
 npm run build     # production build (dist/ + loader/)
 npm test          # unit + browser component tests (Vitest + Playwright)
 ```
+
+> `npm install` does not download Playwright's browser binary. Skipping the `playwright install` step will make `npm test` fail with `Executable doesn't exist ... chrome-headless-shell.exe`.
 
 ## Publishing
 
